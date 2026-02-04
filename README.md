@@ -1,6 +1,5 @@
 # 💫 About Me:
-¡Hola! Soy un apasionado por construir soluciones robustas y escalables, enfocándome principalmente en el ecosistema Full Stack. Me encanta entender cómo funcionan las cosas "bajo el capó", desde la gestión de memoria en el SO hasta la optimización de una query compleja en la base de datos.<br>🛠️ Mi Stack Tecnológico<br><br>    Frontend: Experiencia sólida con TypeScript, React y Svelte. Me enfoco en crear interfaces rápidas, tipadas y con una excelente experiencia de usuario.<br><br>    Backend: Desarrollo de servicios robustos utilizando Kotlin y Spring Boot. Aplicando principios de arquitectura limpia y buen manejo de concurrencia.<br><br>    Infraestructura & Bases de Datos: Conocimientos avanzados en diseño de bases de datos relacionales y conceptos de sistemas operativos (gestión de archivos, RAID y concurrencia).<br><br>📈 En qué estoy trabajando<br><br>Actualmente, estoy profundizando en proyectos que integran el flujo completo de datos: desde controladores dinámicos en el frontend hasta lógica de negocio compleja en el backend con Spring.<br>
-
+¡Hola! Soy un apasionado por construir soluciones robustas y escalables, enfocándome principalmente en el ecosistema Full Stack. Me encanta entender cómo funcionan las cosas, desde la gestión de memoria en el SO hasta la optimización de una query compleja en la base de datos.<br>🛠️ Mi Stack Tecnológico<br><br>    Frontend: Experiencia sólida con TypeScript, React y Svelte. Me enfoco en crear interfaces rápidas, tipadas y con una excelente experiencia de usuario.<br><br>    Backend: Desarrollo de servicios robustos utilizando Kotlin y Spring Boot. Aplicando principios de arquitectura limpia y buen manejo de concurrencia.<br>
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/loreng.zz/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/lorenzo-graizzaro/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lorenzograizzaro55@gmail.com) 
 
@@ -10,9 +9,6 @@
 ![](https://github-readme-stats.vercel.app/api?username=LorenGrz&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=LorenGrz&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=LorenGrz&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=LorenGrz&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=LorenGrz&icon=0&color=0)](https://visitcount.itsvg.in)
