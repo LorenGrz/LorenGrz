@@ -21,7 +21,7 @@ Me apasiona construir soluciones reales de punta a punta: desde el diseño de un
  
 ## 🚀 Proyectos
  
-### [AlgoQuePedir](https://github.com/algo3-unsam/algo-que-pedir-2025-grupo5) — FullStack tipo PedidosYa ✅
+### [AlgoQuePedir](https://github.com/LorenGrz/AlgoQuePedir) — FullStack tipo PedidosYa ✅
 Aplicación fullstack con gestión de productos, órdenes y usuarios. Frontend SPA (React + Svelte) y backend REST containerizados con Docker Compose. Proyecto grupal académico con flujo colaborativo en GitHub.
  
 `React` `Svelte` `TypeScript` `Tailwind CSS` `Kotlin` `Spring Boot` `Docker Compose`
