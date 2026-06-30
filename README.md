@@ -1,4 +1,4 @@
-# 💫 Sobre mí
+# Sobre mí
  
 ¡Hola! Soy **Lorenzo Graizzaro**, Desarrollador Full Stack con base en Buenos Aires, Argentina.
  
