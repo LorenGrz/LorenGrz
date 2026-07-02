@@ -29,14 +29,6 @@ Arquitectura:
 
 Portfolio personal desarrollado con **Next.js**, **React**, **TypeScript** y **Tailwind CSS**. El objetivo es presentar proyectos, decisiones técnicas y evolución profesional con una base moderna orientada a SSR y App Router.
 
-### [RoadMap](https://github.com/LorenGrz/RoadMap) - Ruta de aprendizaje
-
-Repositorio donde documento mi camino de aprendizaje hacia desarrollo full-stack con TypeScript:
-
-```text
-JavaScript -> Node.js -> TypeScript -> React -> NestJS -> Next.js -> React Native
-```
-
 ### [BookLibre](https://github.com/LorenGrz/BookLibre) - Sistema de alquiler de libros
 
 Aplicación académica para reserva y alquiler de libros, con frontend en **React + TypeScript** y backend en **Kotlin + Spring Boot**.
