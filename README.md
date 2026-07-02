@@ -1,6 +1,6 @@
 # Lorenzo Graizzaro
 
-Desarrollador Full Stack con base en Buenos Aires, Argentina. Actualmente curso la **Tecnicatura en Programación Informática** en la Universidad Nacional de San Martín y estoy enfocando mi crecimiento profesional en el **ecosistema TypeScript**.
+Desarrollador Full Stack con base en Buenos Aires, Argentina. Soy **Técnico en Programación Informática** por la Universidad Nacional de San Martín y actualmente curso la **Licenciatura en Desarrollo de Software**. Estoy enfocando mi crecimiento profesional en el **ecosistema TypeScript**.
 
 Mi objetivo es construir aplicaciones web completas, mantenibles y bien documentadas, con foco en diseño de APIs, arquitectura modular, persistencia relacional, interfaces cuidadas y despliegues reproducibles.
 
