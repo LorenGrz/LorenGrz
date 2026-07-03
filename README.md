@@ -8,7 +8,7 @@ Mi objetivo es construir aplicaciones web completas, mantenibles y bien document
 
 - **TypeScript de punta a punta**: React, Next.js, Node.js y NestJS.
 - **Frontend**: componentes reutilizables, estado predecible, formularios, accesibilidad y experiencia mobile-first.
-- **Backend**: APIs REST, WebSockets, autenticación, validación de DTOs, servicios, repositorios y separación de responsabilidades.
+- **Backend**: APIs REST, WebSockets, Supabase, autenticación, validación de DTOs, servicios, repositorios y separación de responsabilidades.
 - **Persistencia**: PostgreSQL como base relacional principal, Redis para estado efímero, colas simples o presencia en tiempo real.
 - **Calidad**: testing, linting, documentación técnica, Git y contenedores con Docker Compose.
 
@@ -51,6 +51,7 @@ Aplicación académica para reserva y alquiler de libros, con frontend en **Reac
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
 ### Datos e infraestructura
@@ -65,6 +66,7 @@ Aplicación académica para reserva y alquiler de libros, con frontend en **Reac
 
 - Next.js con App Router, Server Components, metadata y caching.
 - Diseño de contratos entre frontend y backend con DTOs tipados.
+- Supabase para autenticación, PostgreSQL gestionado, storage y funcionalidades realtime.
 - Testing de aplicaciones TypeScript: Jest, Vitest y Testing Library.
 - Patrones de arquitectura para NestJS y separación entre dominio, aplicación e infraestructura.
 - React Native con Expo para llevar productos web a móvil.
