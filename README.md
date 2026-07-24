@@ -10,7 +10,7 @@ Mi objetivo es construir aplicaciones web completas, mantenibles y bien document
 - **Frontend**: componentes reutilizables, estado predecible, formularios, accesibilidad y experiencia mobile-first.
 - **Backend**: APIs REST, WebSockets, Supabase, autenticación, validación de DTOs, servicios, repositorios y separación de responsabilidades.
 - **Persistencia**: PostgreSQL como base relacional principal, Redis para estado efímero, colas simples o presencia en tiempo real.
-- **Calidad**: testing, linting, documentación técnica, Git y contenedores con Docker Compose.
+- **Calidad**: testing, linting, documentación técnica, Git y Docker.
 
 ## Proyectos destacados
 
