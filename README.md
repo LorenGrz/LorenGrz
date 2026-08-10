@@ -4,7 +4,7 @@ Desarrollador Full Stack con base en Buenos Aires, Argentina. Soy **Técnico en 
 
 Mi objetivo es construir aplicaciones web completas, mantenibles y bien documentadas, con foco en diseño de APIs, arquitectura modular, persistencia relacional, interfaces cuidadas y despliegues reproducibles.
 
-**Portfolio:** [lorenzo-graizzaro.dev](https://d3q8bee4t9y11e.cloudfront.net)
+**Portfolio:** [Portfolio](https://lorengrz.github.io/)
 
 ## Enfoque actual
 
