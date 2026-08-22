@@ -98,4 +98,4 @@ Portfolio personal con **Next.js 16**, **React 19**, **TypeScript**, **Tailwind 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lorenzo_Graizzaro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lorenzo-graizzaro)
 [![Email](https://img.shields.io/badge/Email-lorenzograizzaro55%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lorenzograizzaro55@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-d3q8bee4t9y11e.cloudfront.net-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://d3q8bee4t9y11e.cloudfront.net)
+[![Portfolio](https://img.shields.io/badge/Portfolio-lorengrz.github.io-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://lorengrz.github.io)
