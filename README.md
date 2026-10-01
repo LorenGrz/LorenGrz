@@ -1,101 +1,132 @@
-# Lorenzo Graizzaro
+<a href="https://lorengrz.github.io/">
+  <img src="./assets/header.svg" alt="Lorenzo Graizzaro — Software Developer & AI Engineer" width="100%" />
+</a>
 
-Software Developer con base en Buenos Aires, Argentina. Soy **Técnico en Programación Informática** por la Universidad Nacional de San Martín y actualmente curso la **Licenciatura en Desarrollo de Software**. Estoy enfocando mi crecimiento profesional en el **ecosistema TypeScript**.
+<p align="center">
+  <a href="https://lorengrz.github.io/"><img src="https://img.shields.io/badge/Portfolio-lorengrz.github.io-f97316?style=flat-square&labelColor=14171d" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/lorenzo-graizzaro"><img src="https://img.shields.io/badge/LinkedIn-lorenzo--graizzaro-ececea?style=flat-square&logo=linkedin&logoColor=f97316&labelColor=14171d" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/LorenGrz/"><img src="https://img.shields.io/badge/LeetCode-LorenGrz-ececea?style=flat-square&logo=leetcode&logoColor=f97316&labelColor=14171d" alt="LeetCode" /></a>
+  <a href="mailto:lorenzograizzaro55@gmail.com"><img src="https://img.shields.io/badge/Email-lorenzograizzaro55%40gmail.com-ececea?style=flat-square&logo=gmail&logoColor=f97316&labelColor=14171d" alt="Email" /></a>
+  <a href="https://lorengrz.github.io/Lorenzo-Graizzaro-CV-ES.pdf"><img src="https://img.shields.io/badge/CV-ES-22c55e?style=flat-square&labelColor=14171d" alt="CV en español" /></a>
+  <a href="https://lorengrz.github.io/Lorenzo-Graizzaro-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-EN-22c55e?style=flat-square&labelColor=14171d" alt="CV in English" /></a>
+</p>
 
-Mi objetivo es construir aplicaciones web completas, mantenibles y bien documentadas, con foco en diseño de APIs, arquitectura modular, persistencia relacional, interfaces cuidadas y despliegues reproducibles.
+## Sobre mí
 
-**Portfolio:** [Portfolio](https://lorengrz.github.io/)
+Software Developer y AI Engineer en Buenos Aires. Construyo aplicaciones con IA integrada en su flujo: agentes con **Amazon Bedrock** y **Strands Agents**, generación con LLMs, RAG y servidores MCP. Defino la arquitectura con criterio propio y armo mis propios entornos agénticos (Claude Code con subagentes) para gestionar el contexto.
 
-## Enfoque actual
+- 🎓 Técnico en Programación Informática (UNSAM, 2026), cursando la **Licenciatura en Desarrollo de Software**.
+- 🧑‍🏫 Ayudante de cátedra en Algoritmos 3 y PHM (UNSAM).
+- 💼 Freelance: aplicaciones a medida con IA y automatizaciones como parte del proceso.
+- 🟢 Disponible para nuevas oportunidades: presencial, híbrido o remoto.
 
-- **TypeScript de punta a punta**: React, Next.js, Node.js y NestJS.
-- **Frontend**: componentes reutilizables, estado predecible, formularios, accesibilidad y experiencia mobile-first.
-- **Backend**: APIs REST, WebSockets, Supabase, autenticación, validación de DTOs, servicios, repositorios y separación de responsabilidades.
-- **Persistencia**: PostgreSQL como base relacional principal, Redis para estado efímero, colas simples o presencia en tiempo real.
-- **Infraestructura**: AWS (Lambda, API Gateway, S3, CloudFront, SAM) y contenedores con Docker Compose.
-- **Calidad**: testing, linting, documentación técnica y Git disciplinado.
+## Cómo trabajo
+
+```text
+› pedido
+  scout     → lee el repo y mapea convenciones        (rápido, solo lectura)
+  reasoner  → decide arquitectura, contratos y riesgos (el modelo grande)
+  worker    → implementa con un check objetivo         (lint, typecheck, tests)
+✓ verificación  ✓ commit convencional  ✓ deploy
+```
+
+Uso **Spec-Driven Development**: los cambios se especifican antes de escribirse (OpenSpec) y cada tarea llega a quien la implementa con su comando de aceptación. Mis skills para agentes son públicas en [claude-skills](https://github.com/LorenGrz/claude-skills).
 
 ## Proyectos destacados
 
-### [StudyQuest](https://github.com/LorenGrz/StudyQuest) — Plataforma de estudio con IA · [demo](https://studyquest-production-281a.up.railway.app/)
+Los mismos cinco que en el [portfolio](https://lorengrz.github.io/#projects) y el CV. Esta sección se regenera sola cada día desde [`resume.json`](https://lorengrz.github.io/resume.json).
 
-Plataforma de estudio colaborativo con salas en tiempo real, matchmaking, gamificación, chat y generación de quizzes a partir de documentos con IA.
+<!-- PROJECTS:START -->
+<!-- Generado desde https://lorengrz.github.io/resume.json por scripts/sync-projects.mjs. No editar a mano. -->
 
-- Frontend: **React 19**, **TypeScript**, **Vite**, **Tailwind CSS**, **Zustand**, **React Router**, **Socket.IO Client**.
-- Backend: **NestJS 11**, **PostgreSQL**, **TypeORM**, **Redis**, **Socket.IO**, **Swagger**.
-- Entorno local orquestado con **Docker Compose**.
+### Prioria
 
-### [FraudDetector](https://github.com/LorenGrz/FraudDetector) — Detección de fraude bancario con ML · [demo](https://idljw8bb01.execute-api.us-east-1.amazonaws.com/prod/)
+App Android que intercepta notificaciones, las prioriza con un agente de IA y anuncia por voz las críticas. Backend 100% serverless en AWS.
 
-Sistema de detección de anomalías en transacciones bancarias con modelos de ML y dashboard interactivo.
+- Agente con Strands Agents SDK y Amazon Bedrock que asigna prioridad a cada notificación según reglas y preferencias del usuario, y aprende del feedback explícito
+- Backend serverless con AWS Lambda, API Gateway, Cognito, DynamoDB y SQS, definido como infraestructura como código con AWS SAM
 
-- Backend: **Python**, **FastAPI**, **scikit-learn** (Isolation Forest, LOF, K-Means), **SQLAlchemy**, **SQLite**.
-- Frontend: dashboard con **Bootstrap 5** y gráficos interactivos con **Plotly**.
-- Deploy serverless: **AWS Lambda** (imagen Docker), **API Gateway**, **SAM**.
+`React Native` `Expo` `TypeScript` `Amazon Bedrock` `Strands Agents` `AWS Lambda` `DynamoDB` `AWS SAM`
 
-### [ServerlessScanner](https://github.com/LorenGrz/ServerlessScanner) — Análisis de arquitectura AWS · [demo](https://o5t5ellgkf.execute-api.us-east-1.amazonaws.com/prod/)
+[landing ↗](https://lorengrz.github.io/landing-prioria/) · [código](https://github.com/LorenGrz/Prioria)
 
-Herramienta que analiza stacks CloudFormation y detecta oportunidades de migración a arquitectura serverless.
+### StudyQuest
 
-- **Python**, **FastAPI**, **AWS Lambda**, **API Gateway**, **AWS SAM**.
+Plataforma de estudio colaborativo con matchmaking en tiempo real y quizzes generados por IA a partir de apuntes y PDFs. En producción en AWS.
 
-### [BookLibre](https://github.com/LorenGrz/BookLibre) — Sistema de alquiler de libros
+- Generación de quizzes con LLMs a partir de PDF y DOCX: conversión a Markdown con un microservicio Python (MarkItDown) y proveedor de IA intercambiable (Amazon Bedrock por defecto, Google Gemini como alternativa)
+- Persistencia híbrida: PostgreSQL con TypeORM para metadatos y resultados, DynamoDB con TTL para el contenido de los quizzes y S3 con URLs prefirmadas para archivos
 
-Aplicación académica para reserva y alquiler de libros, completamente dockerizada.
+`React` `TypeScript` `Node.js/NestJS` `Socket.IO` `Amazon Bedrock` `PostgreSQL` `DynamoDB` `AWS S3` `AWS Lightsail` `Docker Compose`
 
-- Frontend: **React**, **TypeScript**, **Chakra UI**.
-- Backend: **Kotlin**, **Spring Boot**, **Docker Compose**.
+[landing ↗](https://lorengrz.github.io/landing-studyquest/) · [código](https://github.com/LorenGrz/StudyQuest)
 
-### [Algo Que Pedir](https://github.com/LorenGrz/AlgoQuePedir) — Gestión de pedidos estilo PedidosYa
+### OpenRuleta
 
-Aplicación full-stack académica para gestión de productos, órdenes y usuarios.
+Toolkit de sorteo para eventos: formulario público de inscripción y rueda de ganadores para el operador, sobre Supabase.
 
-- **React**, **Svelte**, **TypeScript**, **Tailwind**, **Kotlin**, **Spring Boot**.
+- Usado en vivo en Data Saturday LATAM Argentina 2026 con ~300 inscripciones simultáneas desde el celular, sobre el plan gratuito de Supabase
+- Seguridad con Row Level Security: la app pública solo puede insertar; la rueda del operador usa la service key detrás de HTTP Basic Auth
 
-### [Portfolio](https://github.com/LorenGrz/Portfolio) — Portfolio profesional · [ver en vivo](https://d3q8bee4t9y11e.cloudfront.net)
+`Next.js` `React` `TypeScript` `Supabase` `PostgreSQL` `Tailwind CSS` `pnpm workspaces`
 
-Portfolio personal con **Next.js 16**, **React 19**, **TypeScript**, **Tailwind CSS 4** y deploy en AWS (S3 + CloudFront + SAM).
+[landing ↗](https://lorengrz.github.io/landing-openruleta/) · [código](https://github.com/LorenGrz/OpenRuleta)
 
-## Stack principal
+### FraudDetector
 
-### Lenguajes
+Detección de fraude bancario sobre 100k+ transacciones con consenso de 3 modelos de ML no supervisado y dashboard interactivo.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+- Ensemble de Isolation Forest, LOF y K-Means: un cliente se marca como riesgo solo si al menos 2 modelos coinciden (~35% menos falsos positivos que un modelo único)
+- API REST con FastAPI: 110–150 ms por análisis de cliente y 40–60 ms por transacción
 
-### Frontend
+`Python` `FastAPI` `scikit-learn` `SQLAlchemy` `SQLite` `Plotly`
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+[landing ↗](https://lorengrz.github.io/landing-frauddetector/) · [código](https://github.com/LorenGrz/FraudDetector)
 
-### Backend
+### BookLibre
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+Sistema de reserva y alquiler de libros full-stack, proyecto académico grupal (UNSAM).
 
-### Datos e infraestructura
+- Persistencia políglota con PostgreSQL, MongoDB y Redis detrás de un backend Kotlin + Spring Boot
+- Autenticación JWT con cookies HttpOnly y SameSite=None para sesiones cross-origin
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+`React` `TypeScript` `Kotlin` `Spring Boot` `PostgreSQL` `MongoDB` `Redis` `Docker Compose`
 
-## Actualmente aprendiendo
+[landing ↗](https://lorengrz.github.io/landing-booklibre/) · [código](https://github.com/LorenGrz/BookLibre)
 
-- Next.js con App Router, Server Components, metadata y caching.
-- React Native con Expo para llevar productos web a móvil.
-- Supabase para autenticación, PostgreSQL gestionado, storage y funcionalidades realtime.
-- Patrones de arquitectura para NestJS: separación entre dominio, aplicación e infraestructura.
-- Testing de aplicaciones TypeScript: Jest, Vitest y Testing Library.
+<!-- PROJECTS:END -->
 
-## Contacto
+## Stack
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lorenzo_Graizzaro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lorenzo-graizzaro)
-[![Email](https://img.shields.io/badge/Email-lorenzograizzaro55%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lorenzograizzaro55@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-d3q8bee4t9y11e.cloudfront.net-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://d3q8bee4t9y11e.cloudfront.net)
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-14171d?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-14171d?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
+  <img src="https://img.shields.io/badge/Kotlin-14171d?style=for-the-badge&logo=kotlin&logoColor=7F52FF" alt="Kotlin" />
+  <br />
+  <img src="https://img.shields.io/badge/React%2FNext.js-14171d?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React/Next.js" />
+  <img src="https://img.shields.io/badge/React_Native-14171d?style=for-the-badge&logo=expo&logoColor=ececea" alt="React Native" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-14171d?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+  <br />
+  <img src="https://img.shields.io/badge/Node.js%2FNestJS-14171d?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="Node.js/NestJS" />
+  <img src="https://img.shields.io/badge/FastAPI-14171d?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Spring_Boot-14171d?style=for-the-badge&logo=springboot&logoColor=6DB33F" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Socket.IO-14171d?style=for-the-badge&logo=socketdotio&logoColor=ececea" alt="Socket.IO" />
+  <br />
+  <img src="https://img.shields.io/badge/PostgreSQL-14171d?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-14171d?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Redis-14171d?style=for-the-badge&logo=redis&logoColor=FF4438" alt="Redis" />
+  <img src="https://img.shields.io/badge/DynamoDB-14171d?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2Y5NzMxNiIgZD0iTTE5LjM1IDEwLjA0QTcuNDkgNy40OSAwIDAgMCAxMiA0QzkuMTEgNCA2LjYgNS42NCA1LjM1IDguMDRBNS45OTQgNS45OTQgMCAwIDAgMCAxNGMwIDMuMzEgMi42OSA2IDYgNmgxM2MyLjc2IDAgNS0yLjI0IDUtNSAwLTIuNjQtMi4wNS00Ljc4LTQuNjUtNC45NnoiLz48L3N2Zz4=" alt="DynamoDB" />
+  <img src="https://img.shields.io/badge/Supabase-14171d?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
+  <br />
+  <img src="https://img.shields.io/badge/AWS-14171d?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2Y5NzMxNiIgZD0iTTE5LjM1IDEwLjA0QTcuNDkgNy40OSAwIDAgMCAxMiA0QzkuMTEgNCA2LjYgNS42NCA1LjM1IDguMDRBNS45OTQgNS45OTQgMCAwIDAgMCAxNGMwIDMuMzEgMi42OSA2IDYgNmgxM2MyLjc2IDAgNS0yLjI0IDUtNSAwLTIuNjQtMi4wNS00Ljc4LTQuNjUtNC45NnoiLz48L3N2Zz4=" alt="AWS" />
+  <img src="https://img.shields.io/badge/Amazon_Bedrock-14171d?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2Y5NzMxNiIgZD0iTTE5LjM1IDEwLjA0QTcuNDkgNy40OSAwIDAgMCAxMiA0QzkuMTEgNCA2LjYgNS42NCA1LjM1IDguMDRBNS45OTQgNS45OTQgMCAwIDAgMCAxNGMwIDMuMzEgMi42OSA2IDYgNmgxM2MyLjc2IDAgNS0yLjI0IDUtNSAwLTIuNjQtMi4wNS00Ljc4LTQuNjUtNC45NnoiLz48L3N2Zz4=" alt="Amazon Bedrock" />
+  <img src="https://img.shields.io/badge/Docker-14171d?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-14171d?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Claude_Code-14171d?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code" />
+</p>
+
+---
+
+<p align="center">
+  <sub>Más proyectos, experiencia y el CV en <a href="https://lorengrz.github.io/">lorengrz.github.io</a></sub>
+</p>

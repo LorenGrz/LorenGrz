@@ -1,0 +1,29 @@
+name: Sync projects from portfolio
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todos los días, 06:00 en Buenos Aires
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-projects.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: sync projects from portfolio resume.json"
+          git push
